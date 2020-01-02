@@ -1,0 +1,921 @@
+<!doctype html>
+<html lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>LogicBits - Home</title>
+    <link rel="icon" href="img/core-img/favicon.png">
+    <link rel="stylesheet" href="css/default-assets/notification.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/custom.css">
+
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="ctn-preloader" class="ont-preloader">
+            <div class="animation-preloader">
+                <div class="spinner"></div>
+                <div class="txt-loading">
+                    <span data-text-preloader="L" class="letters-loading">
+                        L
+                    </span>
+                    <span data-text-preloader="o" class="letters-loading">
+                        o
+                    </span>
+                    <span data-text-preloader="g" class="letters-loading">
+                        g
+                    </span>
+                    <span data-text-preloader="i" class="letters-loading">
+                        i
+                    </span>
+                    <span data-text-preloader="c" class="letters-loading">
+                        c
+                    </span>
+                    <span data-text-preloader="B" class="letters-loading">
+                        B
+                    </span>
+                    <span data-text-preloader="i" class="letters-loading">
+                        i
+                    </span>
+                    <span data-text-preloader="t" class="letters-loading">
+                        t
+                    </span>
+                    <span data-text-preloader="s" class="letters-loading">
+                        s
+                    </span>
+                </div>
+                <p class="text-center">Loading</p>
+            </div>
+
+            <div class="loader">
+                <div class="row">
+                    <div class="col-3 loader-section section-left">
+                        <div class="bg"></div>
+                    </div>
+                    <div class="col-3 loader-section section-left">
+                        <div class="bg"></div>
+                    </div>
+                    <div class="col-3 loader-section section-right">
+                        <div class="bg"></div>
+                    </div>
+                    <div class="col-3 loader-section section-right">
+                        <div class="bg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader -->
+
+    <!-- Page Content -->
+    <div class="top-menu-page-wrapper horizontal-menu">
+        <div class="top-menu-page-content">
+            <!-- Top Header Area -->
+            <div class="header_main">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <header class="top-header-area clearfix d-flex align-items-center justify-content-between">
+                                <div class="left-side-content-area d-flex align-items-center">
+                                    <!-- Desktop Logo -->
+                                    <div class="top-menu-logo mr-3">
+                                        <a href="index.html"><img class="desktop-logo" src="img/logo.png" alt="Desktop Logo"></a>
+                                    </div>
+                                </div>
+
+                                <div class="right-side-navbar d-flex align-items-center justify-content-end">
+                                    <!-- Top Bar Nav -->
+                                    <ul class="d-flex align-items-center">
+                                        <li class="nav-item dropdown">
+                                            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="ti-search"></i></button>
+                                            <div class="dropdown-menu dropdown-menu-right">
+                                                <!-- Top Search Bar -->
+                                                <div class="top-search-bar">
+                                                    <form action="#" method="get">
+                                                        <input type="search" name="search" class="from-control top-search mb-0" placeholder="Type your keywords...">
+                                                        <button type="submit"><i class="ti-search"></i></button>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <li class="nav-item dropdown">
+                                            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="ti-filter" aria-hidden="true"></i></button>
+
+                                            <div class="dropdown-menu dropdown-menu-right">
+                                                <!-- Top Message Area -->
+                                                <div class="top-message-area">
+                                                    <!-- Heading -->
+                                                    <div class="top-message-heading">
+                                                        <div class="heading-title">
+                                                            <h6>Setting</h6>
+                                                        </div>
+                                                    </div>
+                                                    <div class="message-box ev-message-box" id="messageBox">
+                                                        <div class="form-group">
+                                                            <select class="form-control" name="">
+                                                                <option value="">Select Company</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <select class="form-control" name="">
+                                                                <option value="">Select Branch</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <select class="form-control" name="">
+                                                                <option value="">Select Financial Year</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <select class="form-control" name="">
+                                                                <option value="">Select Month</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <li class="nav-item dropdown">
+                                            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><i class="ti-bell" aria-hidden="true"></i> <span class="active-status"></span></button>
+                                            <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-264px, 22px, 0px);">
+                                                <!-- Top Notifications Area -->
+                                                <div class="top-notifications-area">
+                                                    <!-- Heading -->
+                                                    <div class="notifications-heading">
+                                                        <div class="heading-title">
+                                                            <h6>Notifications</h6>
+                                                        </div>
+                                                        <span>5 New</span>
+                                                    </div>
+
+                                                    <div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 260px;"><div class="notifications-box" id="notificationsBox" style="overflow: hidden; width: auto; height: 260px;">
+                                                        <a href="#" class="dropdown-item"><i class="ti-face-smile bg-success"></i><span>We've got something for you!</span></a>
+                                                        <a href="#" class="dropdown-item"><i class="ti-bell bg-danger"></i><span>Domain names expiring on Tuesday</span></a>
+                                                        <a href="#" class="dropdown-item"><i class="ti-check"></i><span>Your commissions has been sent</span></a>
+                                                        <a href="#" class="dropdown-item"><i class="ti-heart bg-success"></i><span>You sold an item!</span></a>
+                                                        <a href="#" class="dropdown-item"><i class="ti-bolt bg-warning"></i><span>Security alert for your linked Google account</span></a>
+                                                        <a href="#" class="dropdown-item"><i class="ti-face-smile bg-success"></i><span>We've got something for you!</span></a>
+                                                        <a href="#" class="dropdown-item"><i class="ti-bell bg-danger"></i><span>Domain names expiring on Tuesday</span></a>
+                                                        <a href="#" class="dropdown-item"><i class="ti-check"></i><span>Your commissions has been sent</span></a>
+                                                        <a href="#" class="dropdown-item"><i class="ti-heart bg-success"></i><span>You sold an item!</span></a>
+                                                        <a href="#" class="dropdown-item"><i class="ti-bolt bg-warning"></i><span>Security alert for your linked Google account</span></a>
+                                                    </div><div class="slimScrollBar" style="background: rgb(140, 140, 140); width: 2px; position: absolute; top: 0px; opacity: 0.4; display: none; border-radius: 7px; z-index: 99; right: 0px; height: 96.2963px;"></div><div class="slimScrollRail" style="width: 2px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 7px; background: rgb(51, 51, 51); opacity: 0.2; z-index: 90; right: 0px;"></div></div>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <li class="nav-item dropdown">
+                                            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/member-img/women.jpg" alt=""></button>
+                                            <div class="dropdown-menu dropdown-menu-right">
+                                                <!-- User Profile Area -->
+                                                <div class="user-profile-area">
+                                                    <div class="user-profile-heading">
+                                                        <!-- Thumb -->
+                                                        <div class="profile-thumbnail">
+                                                            <img src="img/member-img/women.jpg" alt="">
+                                                        </div>
+                                                        <!-- Profile Text -->
+                                                        <div class="profile-text">
+                                                            <h6>Pravin</h6>
+                                                            <span>Pravin@example.com</span>
+                                                        </div>
+                                                    </div>
+                                                    <a href="#" class="dropdown-item"><i class="ti-user text-default" aria-hidden="true"></i> My profile</a>
+                                                    <a href="#" class="dropdown-item"><i class="ti-settings text-default" aria-hidden="true"></i> settings</a>
+                                                    <a href="#" class="dropdown-item"><i class="ti-cloud-down text-purple" aria-hidden="true"></i> Backup </a>
+                                                    <a href="login.html" class="dropdown-item"><i class="ti-unlink text-warning" aria-hidden="true"></i> Logout </a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </header>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Horizontal Menu -->
+            <div class="header_menu">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="horizontal-menu clearfix">
+                                <div class="classy-nav-container breakpoint-off">
+                                    <nav class="classy-navbar justify-content-between" id="horizontalNav">
+
+                                        <!-- Logo -->
+                                        <a href="index.html" class="nav-brand"><img src="img/logo.png" alt="Mobile Logo"></a>
+
+                                        <!-- Navbar Toggler -->
+                                        <div class="classy-navbar-toggler">
+                                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                                        </div>
+
+                                        <!-- Menu -->
+                                        <div class="classy-menu">
+                                            <!-- close btn -->
+                                            <div class="classycloseIcon">
+                                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                                            </div>
+
+                                            <!-- Nav Start -->
+                                            <div class="classynav">
+                                                <ul>
+                                                    <li><a href="index.html"><i class="ti-home"></i> Dashboard</a></li>
+                                                    <li><a href="#"> Master</a>
+                                                    	<ul class="dropdown">
+                                                    		<li><a href="#">Page 1</a></li>
+                                                    		<li><a href="#">Page 2</a></li>
+                                                    		<li><a href="#">Page 3</a></li>
+                                                    	</ul>
+                                                    </li>
+                                                    <li><a href="#"> Party</a>
+                                                    	<ul class="dropdown">
+                                                    		<li><a href="#">Page 1</a></li>
+                                                    		<li><a href="#">Page 2</a></li>
+                                                    		<li><a href="#">Page 3</a></li>
+                                                    	</ul>
+                                                    </li>
+                                                    <li><a href="#"> Sales</a>
+                                                    	<ul class="dropdown">
+                                                    		<li><a href="#">Page 1</a></li>
+                                                    		<li><a href="#">Page 2</a></li>
+                                                    		<li><a href="#">Page 3</a></li>
+                                                    	</ul>
+                                                    </li>
+                                                    <li><a href="#"> Support</a>
+                                                        <div class="megamenu">
+                                                        	<ul class="single-mega cn-col-4">
+                                                        		<li class="title"><a href="#">Task</a></li>
+                                                        		<li><a href="morris-chart.html">- Add</a></li>
+                                                        		<li><a href="morris-chart.html">- Search</a></li>
+                                                        		<li><a href="morris-chart.html">- Summary</a></li>
+                                                        	</ul>
+                                                            <ul class="single-mega cn-col-4">
+                                                        		<li class="title"><a href="#">Visit</a></li>
+                                                        		<li><a href="morris-chart.html">- Add</a></li>
+                                                        		<li><a href="morris-chart.html">- Search</a></li>
+                                                        		<li><a href="morris-chart.html">- Summary</a></li>
+                                                        	</ul>
+                                                            <ul class="single-mega cn-col-4">
+                                                        		<li class="title"><a href="#">Reminder</a></li>
+                                                        		<li><a href="morris-chart.html">- Add</a></li>
+                                                        		<li><a href="morris-chart.html">- Search</a></li>
+                                                        		<li><a href="morris-chart.html">- Summary</a></li>
+                                                        	</ul>
+                                                            <ul class="single-mega cn-col-4">
+                                                        		<li class="title"><a href="#">Usage</a></li>
+                                                        		<li><a href="morris-chart.html">- Add</a></li>
+                                                        		<li><a href="morris-chart.html">- Search</a></li>
+                                                        		<li><a href="morris-chart.html">- Summary</a></li>
+                                                        	</ul>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!-- Nav End -->
+                                        </div>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Content Area -->
+            <div class="main-content">
+                <div class="dashboard-area">
+                    <div class="container pd-x-0">
+                        <div class="row align-items-center">
+                            <div class="col-6">
+                                <div class="dashboard-header-title mb-3">
+                                    <h5 class="mb-0 font-weight-bold">Dashboard</h5>
+                                    <p class="mb-0 font-weight-bold">Welcome to LogicBits Dashboard.</p>
+                                </div>
+                            </div>
+                            <!-- Dashboard Info Area -->
+                            <div class="col-6">
+                                <div class="dashboard-infor-mation d-flex flex-wrap align-items-center mb-3">
+                                    <div class="dashboard-clock">
+                                        <div id="dashboardDate">Monday, 21 October</div>
+                                        <ul class="d-flex align-items-center justify-content-end">
+                                            <li id="hours">12</li>
+                                            <li>:</li>
+                                            <li id="min">10</li>
+                                            <li>:</li>
+                                            <li id="sec">14</li>
+                                        </ul>
+                                    </div>
+                                    <div class="dashboard-btn-group d-flex align-items-center">
+                                        <a href="#" class="btn btn-primary ml-1"><i class="ti-settings"></i></a>
+                                        <a href="#" class="btn btn-primary ml-1"><i class="ti-plus"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                                  <strong>Dear User</strong> kindly update your password as it not modification from last 18168 Days.
+                                  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <!-- Earning Area -->
+                            <div class="col-md-8 box-margin">
+                                <div class="card bg-primary earning-date">
+                                    <div class="card-body">
+                                        <div class="dashboard-tab-area">
+                                            <h5 class="text-white card-title">Transaction</h5>
+                                            <div class="bd-example bd-example-tabs">
+                                                <div class="tab-content" id="tabContent-pills">
+
+                                                    <div class="tab-pane fade active show" id="ev_trans_today" role="tabpanel" aria-labelledby="ev_trans_today">
+                                                        <div class="d-flex align-items-center justify-content-center text-center">
+                                                            <div class="col-md-6">
+                                                                <h2 class="text-white mb-3 font-30">990</h2>
+                                                                <span class="text-white mb-3 d-block">Receipts</span>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <h2 class="text-white mb-3 font-30">630</h2>
+                                                                <span class="text-white mb-3 d-block">Payments</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex align-items-center mt-2 justify-content-center text-center">
+                                                            <div class="col-md-6">
+                                                                <h2 class="text-white mb-3 font-30">199</h2>
+                                                                <span class="text-white mb-3 d-block">Contra</span>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <h2 class="text-white mb-3 font-30">236</h2>
+                                                                <span class="text-white mb-3 d-block">JV</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="tab-pane fade" id="ev_trans_month" role="tabpanel" aria-labelledby="ev_trans_month">
+                                                        <div class="d-flex align-items-center justify-content-center text-center">
+                                                            <div class="col-md-6">
+                                                                <h2 class="text-white mb-3 font-30">0</h2>
+                                                                <span class="text-white mb-3 d-block">Receipts</span>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <h2 class="text-white mb-3 font-30">0</h2>
+                                                                <span class="text-white mb-3 d-block">Payments</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex align-items-center mt-2 justify-content-center text-center">
+                                                            <div class="col-md-6">
+                                                                <h2 class="text-white mb-3 font-30">0</h2>
+                                                                <span class="text-white mb-3 d-block">Contra</span>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <h2 class="text-white mb-3 font-30">0</h2>
+                                                                <span class="text-white mb-3 d-block">JV</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="tab-pane fade" id="ev_trans_bank" role="tabpanel" aria-labelledby="ev_trans_bank">
+                                                        <div class="d-flex align-items-center justify-content-center text-center">
+                                                            <div class="col-md-6">
+                                                                <h2 class="text-white mb-3 font-30">246</h2>
+                                                                <span class="text-white mb-3 d-block">Receipts</span>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <h2 class="text-white mb-3 font-30">84</h2>
+                                                                <span class="text-white mb-3 d-block">Payments</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex align-items-center mt-2 justify-content-center text-center">
+                                                            <div class="col-md-6">
+                                                                <h2 class="text-white mb-3 font-30">100</h2>
+                                                                <span class="text-white mb-3 d-block">Contra</span>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <h2 class="text-white mb-3 font-30">230</h2>
+                                                                <span class="text-white mb-3 d-block">JV</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+
+                                                </div>
+                                                <ul class="nav mt-3 nav-pills align-items-center justify-content-center" id="pills-tab" role="tablist">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active show" id="trans_today" data-toggle="pill" href="#ev_trans_today" role="tab" aria-controls="trans_today" aria-selected="false">Today</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link show" id="trans_month" data-toggle="pill" href="#ev_trans_month" role="tab" aria-controls="trans_month" aria-selected="true">Month</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link show" id="trans_bank" data-toggle="pill" href="#ev_trans_bank" role="tab" aria-controls="trans_bank" aria-selected="true">Bank Reco Pending</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card mt-30">
+                                    <div class="card-header bg-transparent user-area d-flex align-items-center justify-content-between">
+                                        <h5 class="card-title mb-0">Order Summary</h5>
+                                        <div class="btn-group mb-2 mr-2">
+                                            <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Orders</button>
+                                            <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, 35px, 0px);">
+                                                <a class="dropdown-item" href="#">Sales</a>
+                                                <a class="dropdown-item" href="#">Purchase</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <div id="line-chart2" class="height-300"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Best seller Area -->
+                            <div class="col-md-4">
+                                <div class="widget-slider-area bg-success mb-15 p-3">
+                                    <div class="widget-slides owl-carousel">
+                                        <!-- Single Slider -->
+                                        <div class="widget-slider-content">
+                                            <div class="d-flex justify-content-between align-items-center mb-15">
+                                                <h6 class="mb-0 text-white">Invoice Sales</h6>
+                                                <span class="badge badge-pill badge-primary">79% Done</span>
+                                            </div>
+                                            <h6 class="text-white mb-0">$79,639.69</h6>
+                                            <p class="text-white mb-0">Today</p>
+                                        </div>
+                                        <div class="widget-slider-content">
+                                            <div class="d-flex justify-content-between align-items-center mb-15">
+                                                <h6 class="mb-0 text-white">Invoice Sales</h6>
+                                                <span class="badge badge-pill badge-primary">68% Done</span>
+                                            </div>
+                                            <h6 class="text-white mb-0">$13,0278.78</h6>
+                                            <p class="text-white mb-0">by last month</p>
+                                        </div>
+                                        <div class="widget-slider-content">
+                                            <div class="d-flex justify-content-between align-items-center mb-15">
+                                                <h6 class="mb-0 text-white">Invoice Sales</h6>
+                                                <span class="badge badge-pill badge-primary">30% Done</span>
+                                            </div>
+                                            <h6 class="text-white mb-0">$13,000.78</h6>
+                                            <p class="text-white mb-0">Payment Pending</p>
+                                        </div>
+                                        <div class="widget-slider-content">
+                                            <div class="d-flex justify-content-between align-items-center mb-15">
+                                                <h6 class="mb-0 text-white">Invoice Sales</h6>
+                                                <span class="badge badge-pill badge-primary">30% Done</span>
+                                            </div>
+                                            <h6 class="text-white mb-0">$13,000.78</h6>
+                                            <p class="text-white mb-0">Payment Complete</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="widget-slider-area bg-info mb-15 p-3">
+                                    <div class="widget-slides owl-carousel">
+                                        <!-- Single Slider -->
+                                        <div class="widget-slider-content">
+                                            <div class="d-flex justify-content-between align-items-center mb-15">
+                                                <h6 class="mb-0 text-white">Invoice Purchase</h6>
+                                                <span class="badge badge-pill badge-primary">79% Done</span>
+                                            </div>
+                                            <h6 class="text-white mb-0">$79,639.69</h6>
+                                            <p class="text-white mb-0">Today</p>
+                                        </div>
+                                        <div class="widget-slider-content">
+                                            <div class="d-flex justify-content-between align-items-center mb-15">
+                                                <h6 class="mb-0 text-white">Invoice Purchase</h6>
+                                                <span class="badge badge-pill badge-primary">68% Done</span>
+                                            </div>
+                                            <h6 class="text-white mb-0">$13,0278.78</h6>
+                                            <p class="text-white mb-0">by last month</p>
+                                        </div>
+                                        <div class="widget-slider-content">
+                                            <div class="d-flex justify-content-between align-items-center mb-15">
+                                                <h6 class="mb-0 text-white">Invoice Purchase</h6>
+                                                <span class="badge badge-pill badge-primary">30% Done</span>
+                                            </div>
+                                            <h6 class="text-white mb-0">$13,000.78</h6>
+                                            <p class="text-white mb-0">Payment Pending</p>
+                                        </div>
+                                        <div class="widget-slider-content">
+                                            <div class="d-flex justify-content-between align-items-center mb-15">
+                                                <h6 class="mb-0 text-white">Invoice Purchase</h6>
+                                                <span class="badge badge-pill badge-primary">30% Done</span>
+                                            </div>
+                                            <h6 class="text-white mb-0">$13,000.78</h6>
+                                            <p class="text-white mb-0">Payment Complete</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="single-widget-area d-flex align-items-center justify-content-between">
+                                            <div class="profit-icon">
+                                                <i class="zmdi zmdi-favorite-outline"></i>
+                                            </div>
+                                            <div class="total-profit">
+                                                <h6 class="mb-0">Today Proforma Invoice</h6>
+                                                <div class="counter font-30 font-weight-bold text-right" data-comma-separated="true">253</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card mt-3">
+                                    <div class="card-body">
+                                        <div class="single-widget-area d-flex align-items-center justify-content-between">
+                                            <div class="profit-icon">
+                                                <i class="zmdi zmdi-calendar-alt"></i>
+                                            </div>
+                                            <div class="total-profit">
+                                                <h6 class="mb-0">Month Proforma Invoice</h6>
+                                                <div class="counter font-30 font-weight-bold text-right" data-comma-separated="true">500</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card mt-3">
+                                    <div class="card-body">
+                                        <div class="single-widget-area d-flex align-items-center justify-content-between">
+                                            <div class="profit-icon">
+                                                <i class="zmdi zmdi-assignment-alert"></i>
+                                            </div>
+                                            <div class="total-profit">
+                                                <h6 class="mb-0">Pending Proforma Invoice</h6>
+                                                <div class="counter font-30 font-weight-bold text-right" data-comma-separated="true">200</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card mt-3">
+                                    <div class="card-body py-4">
+                                        <div class="media align-items-center">
+                                            <div class="d-inline-block mr-3">
+                                                <i class="icon_document_alt font-30 text-success"></i>
+                                            </div>
+                                            <div class="media-body">
+                                                <h3 class="mb-2 font-24">3,562</h3>
+                                                <div class="mb-0 font-14 font-weight-bold">Enquiry</div>
+                                            </div>
+                                            <div class="pirty-chart"><span class="bar">5,3,9,6,5,9,7,3,5,2</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-6 col-xl-6 mb-3">
+                                <div class="card bg-boxshadow full-height">
+                                    <div class="card-header bg-transparent user-area d-flex align-items-center justify-content-between">
+                                        <h5 class="card-title mb-0">New Users</h5>
+                                        <!-- Nav Tabs -->
+                                        <ul class="nav total-earnings nav-tabs mb-0" role="tablist">
+                                            <li class="nav-item">
+                                                <a class="nav-link show" id="today-users-tab" data-toggle="tab" href="#today-users" role="tab" aria-controls="today-users" aria-selected="false">Today</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link mr-0 active" id="month-users-tab" data-toggle="tab" href="#month-users" role="tab" aria-controls="month-users" aria-selected="true">Month</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="card-body">
+                                        <div class="tab-content" id="userList2">
+                                            <div class="tab-pane fade" id="today-users" role="tabpanel" aria-labelledby="today-users-tab">
+                                                <ul class="total-earnings-list">
+                                                    <li>
+                                                        <div class="author-info d-flex align-items-center">
+                                                            <div class="author-img mr-3">
+                                                                <img src="img/member-img/team-2.jpg" alt="">
+                                                            </div>
+                                                            <div class="author-text">
+                                                                <h6 class="mb-0">Ajoy Das</h6>
+                                                                <p class="mb-0">Product Designer</p>
+                                                            </div>
+                                                        </div>
+                                                        <a href="#" class="badge badge-primary">Follow</a>
+                                                    </li>
+
+                                                    <li>
+                                                        <div class="author-info d-flex align-items-center">
+                                                            <div class="author-img mr-3">
+                                                                <img src="img/member-img/team-3.jpg" alt="">
+                                                            </div>
+                                                            <div class="author-text">
+                                                                <h6 class="mb-0">Niloy Disk</h6>
+                                                                <p class="mb-0">Web Developer</p>
+                                                            </div>
+                                                        </div>
+                                                        <a href="#" class="badge badge-primary">Follow</a>
+                                                    </li>
+
+                                                    <li>
+                                                        <div class="author-info d-flex align-items-center">
+                                                            <div class="author-img mr-3">
+                                                                <img src="img/member-img/team-4.jpg" alt="">
+                                                            </div>
+                                                            <div class="author-text">
+                                                                <h6 class="mb-0">Wiltor Delton</h6>
+                                                                <p class="mb-0">Project Manager</p>
+                                                            </div>
+                                                        </div>
+                                                        <a href="#" class="badge badge-primary">Follow</a>
+                                                    </li>
+
+                                                    <li>
+                                                        <div class="author-info d-flex align-items-center">
+                                                            <div class="author-img mr-3">
+                                                                <img src="img/member-img/team-5.jpg" alt="">
+                                                            </div>
+                                                            <div class="author-text">
+                                                                <h6 class="mb-0">Nick Stone</h6>
+                                                                <p class="mb-0">Visual Designer</p>
+                                                            </div>
+                                                        </div>
+                                                        <a href="#" class="badge badge-primary">Follow</a>
+                                                    </li>
+
+                                                    <li>
+                                                        <div class="author-info d-flex align-items-center">
+                                                            <div class="author-img mr-3">
+                                                                <img src="img/member-img/team-7.jpg" alt="">
+                                                            </div>
+                                                            <div class="author-text">
+                                                                <h6 class="mb-0">Wiltor Delton</h6>
+                                                                <p class="mb-0">Project Manager</p>
+                                                            </div>
+                                                        </div>
+                                                        <a href="#" class="badge badge-primary">Follow</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="tab-pane fade active show" id="month-users" role="tabpanel" aria-labelledby="month-users-tab">
+                                                <ul class="total-earnings-list">
+                                                    <li>
+                                                        <div class="author-info d-flex align-items-center">
+                                                            <div class="author-img mr-3">
+                                                                <img src="img/member-img/2.png" alt="">
+                                                            </div>
+                                                            <div class="author-text">
+                                                                <h6 class="mb-0">Wiltor Delton</h6>
+                                                                <p class="mb-0">Project Manager</p>
+                                                            </div>
+                                                        </div>
+                                                        <a href="#" class="badge badge-primary">Follow</a>
+                                                    </li>
+
+                                                    <li>
+                                                        <div class="author-info d-flex align-items-center">
+                                                            <div class="author-img mr-3">
+                                                                <img src="img/member-img/3.png" alt="">
+                                                            </div>
+                                                            <div class="author-text">
+                                                                <h6 class="mb-0">Ajoy Das</h6>
+                                                                <p class="mb-0">Product Designer</p>
+                                                            </div>
+                                                        </div>
+                                                        <a href="#" class="badge badge-primary">Follow</a>
+                                                    </li>
+
+                                                    <li>
+                                                        <div class="author-info d-flex align-items-center">
+                                                            <div class="author-img mr-3">
+                                                                <img src="img/member-img/4.png" alt="">
+                                                            </div>
+                                                            <div class="author-text">
+                                                                <h6 class="mb-0">Niloy Disk</h6>
+                                                                <p class="mb-0">Web Developer</p>
+                                                            </div>
+                                                        </div>
+                                                        <a href="#" class="badge badge-primary">Follow</a>
+                                                    </li>
+
+                                                    <li>
+                                                        <div class="author-info d-flex align-items-center">
+                                                            <div class="author-img mr-3">
+                                                                <img src="img/member-img/1.png" alt="">
+                                                            </div>
+                                                            <div class="author-text">
+                                                                <h6 class="mb-0">Nazrul Islam</h6>
+                                                                <p class="mb-0">Visual Designer</p>
+                                                            </div>
+                                                        </div>
+                                                        <a href="#" class="badge badge-primary">Follow</a>
+                                                    </li>
+
+                                                    <li>
+                                                        <div class="author-info d-flex align-items-center">
+                                                            <div class="author-img mr-3">
+                                                                <img src="img/member-img/5.png" alt="">
+                                                            </div>
+                                                            <div class="author-text">
+                                                                <h6 class="mb-0">Nick Stone</h6>
+                                                                <p class="mb-0">Visual Designer</p>
+                                                            </div>
+                                                        </div>
+                                                        <a href="#" class="badge badge-primary">Follow</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-xl-6 mb-3">
+                                <div class="card bg-boxshadow full-height">
+                                    <div class="card-header bg-transparent user-area d-flex align-items-center justify-content-between">
+                                        <h5 class="card-title mb-0">Quotations</h5>
+                                        <ul class="nav total-earnings nav-tabs mb-0" role="tablist">
+                                            <li class="nav-item">
+                                                <a class="nav-link active show" id="today-quo-tab" data-toggle="tab" href="#today-quo" role="tab" aria-controls="today-quo" aria-selected="true">Today</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" id="month-quo-tab" data-toggle="tab" href="#month-quo" role="tab" aria-controls="month-quo" aria-selected="false">Month</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link mr-0" id="pending-quo-tab" data-toggle="tab" href="#pending-quo" role="tab" aria-controls="pending-quo" aria-selected="false">Order Pending</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="tab-content" id="userList2">
+                                            <div class="tab-pane fade active show" id="today-quo" role="tabpanel" aria-labelledby="today-quo-tab">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-12">
+                                                                <h5>85</h5>
+                                                                <p class="mb-0">Today Sales</p>
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <div class="progress h-8 mb-0 mt-20 h-8">
+                                                                    <div class="progress-bar bg-primary" role="progressbar" style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card mt-5">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-12">
+                                                                <h5>40%</h5>
+                                                                <p class="mb-0">Today Purchase</p>
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <div class="progress h-8 mb-0 mt-20 h-8">
+                                                                    <div class="progress-bar bg-info" role="progressbar" style="width: 40%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade " id="month-quo" role="tabpanel" aria-labelledby="month-quo-tab">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-12">
+                                                                <h5>70</h5>
+                                                                <p class="mb-0">Month Sales</p>
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <div class="progress h-8 mb-0 mt-20 h-8">
+                                                                    <div class="progress-bar bg-primary" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card mt-5">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-12">
+                                                                <h5>60%</h5>
+                                                                <p class="mb-0">Month Purchase</p>
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <div class="progress h-8 mb-0 mt-20 h-8">
+                                                                    <div class="progress-bar bg-info" role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade " id="pending-quo" role="tabpanel" aria-labelledby="pending-quo-tab">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-12">
+                                                                <h5>85</h5>
+                                                                <p class="mb-0">Order Pending Sales</p>
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <div class="progress h-8 mb-0 mt-20 h-8">
+                                                                    <div class="progress-bar bg-primary" role="progressbar" style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card mt-5">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-12">
+                                                                <h5>40%</h5>
+                                                                <p class="mb-0">Order Pending Purchase</p>
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <div class="progress h-8 mb-0 mt-20 h-8">
+                                                                    <div class="progress-bar bg-info" role="progressbar" style="width: 40%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p> Copyright &copy; 2019. LogicBits Systems Pvt. Ltd.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ======================================
+    ********* Page Wrapper Area End ***********
+    ======================================= -->
+
+    <!-- Must needed plugins to the run this Template -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bundle.js"></script>
+    <script src="js/default-assets/date-time.js"></script>
+    <script src="js/default-assets/setting.js"></script>
+    <script src="js/default-assets/classy-nav.js"></script>
+    <script src="js/default-assets/fullscreen.js"></script>
+    <script src="js/default-assets/bootstrap-growl.js"></script>
+    <script src="js/default-assets/notification-active.js"></script>
+
+    <script>
+        $(function(){
+            $('.dropdown-menu select').on("click", function(e){
+                console.log('hi');
+                e.stopPropagation();
+                e.preventDefault();
+            });
+        });
+    </script>
+
+    <!-- Active JS -->
+    <script src="js/default-assets/active.js"></script>
+
+    <!-- These plugins only need for the run this page -->
+    <script src="js/default-assets/peity.min.js"></script>
+    <script src="js/default-assets/peity-demo.js"></script>
+    <script src="js/default-assets/am-chart.js"></script>
+    <script src="js/default-assets/ammap.min.js"></script>
+    <script src="js/default-assets/gauge.js"></script>
+    <script src="js/default-assets/serial.js"></script>
+    <script src="js/default-assets/light.js"></script>
+    <script src="js/default-assets/worldlow.js"></script>
+    <script src="js/default-assets/radar.js"></script>
+    <script src="js/default-assets/dashboard-2.js"></script>
+
+
+
+</body>
+</html>
